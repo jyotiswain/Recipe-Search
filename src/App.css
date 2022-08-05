@@ -13,3 +13,18 @@ body{
   font-family: 'Dancing Script', cursive;
   font-family: 'Inter', sans-serif;
 }
+
+input {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Inter', sans-serif;
+}
+
+/*Work only on Chrome, Sfari, Opera*/
+::-webkit-scrollbar{
+  display: none;  /*hides the scroll bar*/
+}
+
+body{
+ -ms-overflow-style: none; /* Work on Internet Explorer and Edge*/
+ scrollbar-width: none; /* work for Firefox */
+}

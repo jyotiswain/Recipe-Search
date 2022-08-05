@@ -4,6 +4,24 @@
     height: 100vh;
 }
 
+.home_panelList-wrap, 
+.home_panel-wrap, 
+.home_list-wrap{
+overflow-y: auto;  /*separate scroll bar for both filter panel and list */
+}
+
 .home_panelList-wrap{
     display: flex;  /* displayed Filter Panel and List Side by Side*/
+    flex-direction: row-reverse;
+    flex:1; /*increased height*/
+
 }
+
+.home_panel-wrap{
+    flex-basis: 280px;
+   
+}
+
+.home_list-wrap{
+    flex: 1; /* increased width i.e from left to right*/
+} 
